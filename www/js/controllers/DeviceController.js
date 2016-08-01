@@ -6,8 +6,8 @@
 
     var me = this;
 
-    var service_id = '24ui';
-    var characteristic_id = '70xz';
+    var service_id = '12ab';
+    var characteristic_id = '34cd';
 
     me.attendee = {
       firstname: '',
@@ -19,6 +19,7 @@
     }
 
     $scope.attend = function(){
+
       ble.write(
         $stateParams.id,
         service_id,

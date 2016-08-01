@@ -2,11 +2,11 @@
   "name": "ble-server",
   "version": "1.0.0",
   "description": "",
-  "main": "bleno.js",
+  "main": "attendance.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Wern Ancheta",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bleno": "^0.4.0"

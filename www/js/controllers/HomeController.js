@@ -12,6 +12,7 @@
       ble.startScan(
         [],
         function(device){
+          console.log(device);
           if(device.name){
             DeviceFactory.addDevice({ 'id': device.id, 'name': device.name });
           }
